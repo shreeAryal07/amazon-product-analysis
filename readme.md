@@ -40,3 +40,33 @@ This project is part of my journey toward becoming a Data Scientist. I am learni
 
 *Note: Product popularity based on rating counts does not necessarily represent actual sales.*
 
+
+## Machine Learning: Rating Prediction
+
+A Machine Learning model was developed to predict Amazon product ratings using product prices, discount percentage, rating counts, brand, and product category.
+
+### Models Evaluated
+- Linear Regression
+- Random Forest Regressor
+- Extra Trees Regressor
+- Baseline Model
+
+### Model Evaluation
+Models were compared using:
+- **Mean Absolute Error (MAE)**
+- **R² Score**
+
+The best-performing model was selected based on MAE.
+
+### Project Files
+- `model_training.py` — Model training and evaluation
+- `amazon_cleaned.csv` — Cleaned dataset
+- `rating_predictions.csv` — Actual and predicted ratings
+- `actual_vs_predicted.png` — Prediction visualization
+
+### Technologies Used
+Python, Pandas, Scikit-learn, Matplotlib, Joblib
+
+### Future Improvements
+- Improve prediction performance through feature engineering and hyperparameter tuning.
+- Build an interactive application for product rating prediction.
